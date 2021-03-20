@@ -1,0 +1,90 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    width : 100vw;
+    height : 100vh;
+    padding: 4rem;
+    position: relative;
+    display: flex;
+    background-color: rgba(240, 255, 240, 0.438);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 25%;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container .img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container-left {
+    width: 25%;
+    height: 40vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container-left .img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container-right {
+    width: 25%;
+    height: 40vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container-right .img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    min-width: 100%;
+    height: 100%;
+}
+
+.btn {
+    width: 20%;
+    color: rgb(218, 185, 136);
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: black;
+    border: indianred 2px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(218, 185, 136);
+    color: black;
+}
+
+.button-container {
+    width:  100%;
+    height: 20%;    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
